@@ -12,6 +12,6 @@ int main(void) {
     scanf("%d", &cents);
     finalPrice = dollars + (cents / 100.0f);
     finalPrice += (finalPrice * TAX_RATE);
-    printf("fina price with tax: %.2f", finalPrice);
+    printf("Final price with tax: %.2f\n", finalPrice);
     return 0;
 }
